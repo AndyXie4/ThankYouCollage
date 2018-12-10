@@ -1,4 +1,4 @@
-
+/* @pjs preload="ANDY.ThankYouCode.png"; */ 
 PImage img;
 PFont font;
 boolean x = false;
