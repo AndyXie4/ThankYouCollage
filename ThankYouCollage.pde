@@ -20,7 +20,7 @@ void setup() {
   
   size(600,400);
   img = loadImage("house.jpg");
-  heart = loadImage("heart.png");
+  heart = loadImage("heart2.png");
   cozy = loadImage("cozy house.jpg");
   mom = loadImage("crop.jpg");
   thanks = loadImage("thank you.jpg");
@@ -136,7 +136,7 @@ void draw() {
     vertex(495,126); 
     vertex(490,106); 
     endShape(); 
-    img = loadImage("heart.png");
+    img = loadImage("heart2.jpg");
     image(img,mouseX-50,mouseY-40,width/7,height/7);
   }
 }
