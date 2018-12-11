@@ -136,7 +136,7 @@ void draw() {
     vertex(495,126); 
     vertex(490,106); 
     endShape(); 
-    img = loadImage("heart2.jpg");
+    heart = loadImage("heart2.jpg");
     image(img,mouseX-50,mouseY-40,width/7,height/7);
   }
 }
