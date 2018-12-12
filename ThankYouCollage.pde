@@ -9,27 +9,19 @@ boolean w = false;
 boolean e = false;
 boolean r = false;
 boolean t = false;
-PImage heart;
-PImage cozy;
-PImage mom;
-PImage thanks;
 int x1 = 0;
 int x2 = 400;
 int x3 = 580;
 int x4 = 0;
 
-void setup() {
-  
+
+void setup(){
   size(600,400);
   img = loadImage("house.jpg");
-  heart = loadImage("heart.png");
-  cozy = loadImage("cozy house.jpg");
-  mom = loadImage("crop.jpg");
-  thanks = loadImage("thank you.jpg");
+  image(img,0,0); 
 }
 
-void draw() {
- image(img,0,0);  
+void draw(){
   if(q==true){
     noStroke();
     fill(0,random(100,150),0);
