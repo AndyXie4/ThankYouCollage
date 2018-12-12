@@ -1,5 +1,3 @@
-/* @pjs preload="heart.png"; */
-/* @pjs preload="crop.jpg"; */
 /* @pjs preload="thank you.jpg"; */
 /* @pjs preload="house.jpg"; */
 PImage img;
