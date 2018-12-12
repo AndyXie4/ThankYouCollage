@@ -29,7 +29,7 @@ void setup() {
 }
 
 void draw() {
- image(img,37,30,530,340);  
+ image(img,0,0);  
   if(q==true){
     noStroke();
     fill(0,random(100,150),0);
