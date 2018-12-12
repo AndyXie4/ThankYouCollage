@@ -1,4 +1,4 @@
-
+/* @pjs preload="heart.png"; */
 PImage img;
 PFont font;
 boolean x = false;
@@ -20,21 +20,14 @@ void setup() {
   
   size(600,400);
   img = loadImage("house.jpg");
-  heart = loadImage("heart2.png");
+  heart = loadImage("heart.png");
   cozy = loadImage("cozy house.jpg");
   mom = loadImage("crop.jpg");
   thanks = loadImage("thank you.jpg");
 }
 
 void draw() {
- image(img,37,30,530,340);
-  
-  
-  
-  
-  
-  
-  
+ image(img,37,30,530,340);  
   if(q==true){
     noStroke();
     fill(0,random(100,150),0);
@@ -136,7 +129,7 @@ void draw() {
     vertex(495,126); 
     vertex(490,106); 
     endShape(); 
-    img = loadImage("heart2.jpg");
+    img = loadImage("heart.png");
     image(img,mouseX-50,mouseY-40,width/7,height/7);
   }
 }
