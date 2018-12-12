@@ -1,4 +1,6 @@
 /* @pjs preload="heart.png"; */
+/* @pjs preload="crop.jpg"; */
+/* @pjs preload="thank you.jpg"; */
 PImage img;
 PFont font;
 boolean x = false;
