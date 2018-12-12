@@ -1,7 +1,4 @@
-/* @pjs preload="thank you.jpg";
-@pjs preload="crop.jpg";
-@pjs preload="house.jpg";
-@pjs preload="heart.png"; */
+/* @pjs preload="house.jpg";*/
 PImage img;
 PFont font;
 boolean x = false;
@@ -71,8 +68,10 @@ void draw(){
    }
   }
   if(x==true){
+    /* @pjs preload="thank you.jpg"; */
     background(255);
     img = loadImage("thank you.jpg");
+    /* @pjs preload="crop.jpg";*/
     image(img,150,-60);
     img = loadImage("crop.jpg");
     image(img,70,175,width/1.3,height/2);
@@ -124,6 +123,7 @@ void draw(){
     vertex(495,126); 
     vertex(490,106); 
     endShape(); 
+    /* @pjs preload="heart.png"; */
     img = loadImage("heart.png");
     image(img,mouseX-50,mouseY-40,width/7,height/7);
   }
