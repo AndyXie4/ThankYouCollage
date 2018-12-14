@@ -1,4 +1,4 @@
-/* @pjs preload="house.jpg";*/
+
 PImage img;
 PFont font;
 boolean x = false;
