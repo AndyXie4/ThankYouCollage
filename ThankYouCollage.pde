@@ -1,4 +1,4 @@
-
+/* @pjs preload="heart.png"; */
 PImage img;
 PFont font;
 boolean x = false;
